@@ -3,5 +3,20 @@
     "firstName": "adfsadf",
     "lastName": "asfdasdf",
     "phoneNumber": "asfdsf"
+  },
+  "Hisham Iddris": {
+    "firstName": "Hisham",
+    "lastName": "Iddris",
+    "phoneNumber": "0246 936724"
+  },
+  "Mannan Nasir-Deen": {
+    "firstName": "Mannan",
+    "lastName": "Nasir-Deen",
+    "phoneNumber": "0242246794"
+  },
+  "Ama Ghana": {
+    "firstName": "Ama",
+    "lastName": "Ghana",
+    "phoneNumber": "0233445522"
   }
 }

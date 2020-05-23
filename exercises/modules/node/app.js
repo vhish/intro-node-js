@@ -1,7 +1,7 @@
-const api = require('./api')
+const {getPostsForUser, getUserById} = require('./api')
 
-showPostsForCurrentUser = (userId, cb) => {
-  api.getPostsForUser(userId, posts => {
+const showPostsForCurrentUser = (userId, cb) => {
+  getPostsForUser(userId, posts => {
     const postTemplates = posts.map(post => {
       return `
       <div class="post">
@@ -14,8 +14,8 @@ showPostsForCurrentUser = (userId, cb) => {
   })
 }
 
-showUserProfile = (userId, cb) => {
-  api.getUserById(userId, user => {
+const showUserProfile = (userId, cb) => {
+  getUserById(userId, user => {
     const profile = `
       <div>
         ${user.name}
